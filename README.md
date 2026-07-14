@@ -3,7 +3,7 @@
 A cross-platform chat app built with Expo and React Native, featuring a multi-step
 registration flow, sign-in/authentication, tabbed navigation, and a private chat screen.
 
-Pairs with a Rust backend (Axum + Socket.IO + PostgreSQL) — backend repo coming soon.
+Pairs with [chatapp-backend](https://github.com/nomemmurrakh/chatapp-backend) — a Rust (Axum + Socket.IO + PostgreSQL) API.
 
 ## Stack
 - TypeScript, React Native, Expo (Expo Router)
