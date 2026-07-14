@@ -1,0 +1,148 @@
+const dummyChats: Chat[] = [
+  {
+    fullname: "Sarah Johnson",
+    image: "https://i.pravatar.cc/150?img=1",
+    message: "Hey! Are we still on for the meeting tomorrow?",
+    isTyping: false,
+    unreadCount: 2,
+    time: "2:30 PM",
+  },
+  {
+    fullname: "Michael Chen",
+    image: "https://i.pravatar.cc/150?img=2",
+    message: "Just pushed the latest changes to the repository",
+    isTyping: true,
+    unreadCount: 0,
+    time: "1:45 PM",
+  },
+  {
+    fullname: "Emma Rodriguez",
+    image: "https://i.pravatar.cc/150?img=3",
+    message: "Thanks for the help with the Kotlin coroutines!",
+    isTyping: false,
+    unreadCount: 1,
+    time: "12:20 PM",
+  },
+  {
+    fullname: "David Kim",
+    image: "https://i.pravatar.cc/150?img=4",
+    message: "Can you review my pull request when you get a chance?",
+    isTyping: false,
+    unreadCount: 3,
+    time: "11:15 AM",
+  },
+  {
+    fullname: "Lisa Thompson",
+    image: "https://i.pravatar.cc/150?img=5",
+    message: "The new app design looks amazing! 🎨",
+    isTyping: false,
+    unreadCount: 0,
+    time: "10:30 AM",
+  },
+  {
+    fullname: "Alex Petrov",
+    image: "https://i.pravatar.cc/150?img=6",
+    message: "Found a bug in the authentication flow",
+    isTyping: false,
+    unreadCount: 5,
+    time: "9:45 AM",
+  },
+  {
+    fullname: "Jessica Park",
+    image: "https://i.pravatar.cc/150?img=7",
+    message: "Great job on the presentation today!",
+    isTyping: true,
+    unreadCount: 0,
+    time: "8:20 AM",
+  },
+  {
+    fullname: "Ryan Cooper",
+    image: "https://i.pravatar.cc/150?img=8",
+    message: "Let's discuss the new feature requirements",
+    isTyping: false,
+    unreadCount: 1,
+    time: "Yesterday",
+  },
+  {
+    fullname: "Mia Anderson",
+    image: "https://i.pravatar.cc/150?img=9",
+    message: "Coffee break? ☕",
+    isTyping: false,
+    unreadCount: 0,
+    time: "Yesterday",
+  },
+  {
+    fullname: "James Wilson",
+    image: "https://i.pravatar.cc/150?img=10",
+    message: "The Kotlin multiplatform setup is working perfectly now",
+    isTyping: false,
+    unreadCount: 2,
+    time: "Yesterday",
+  },
+];
+
+const dummyMessages: Message[] = [
+  {
+    content: "Hey! How are you doing?",
+    time: "09:12 AM",
+    sent: true,
+    read: true,
+  },
+  {
+    content: "I’m good, just got back from work.",
+    time: "09:15 AM",
+    sent: false,
+    read: true,
+  },
+  {
+    content: "Nice! Long day?",
+    time: "09:16 AM",
+    sent: true,
+    read: true,
+  },
+  {
+    content: "Yeah, super busy but productive.",
+    time: "09:18 AM",
+    sent: false,
+    read: true,
+  },
+  {
+    content: "That’s good to hear. Want to grab coffee later?",
+    time: "09:20 AM",
+    sent: true,
+    read: false,
+  },
+  {
+    content: "Sure, what time?",
+    time: "09:22 AM",
+    sent: false,
+    read: false,
+  },
+  {
+    content: "Maybe around 6 PM?",
+    time: "09:23 AM",
+    sent: true,
+    read: false,
+  },
+  {
+    content: "Works for me 👍",
+    time: "09:25 AM",
+    sent: false,
+    read: false,
+  },
+  {
+    content: "Cool, I’ll see you then!",
+    time: "09:26 AM",
+    sent: true,
+    read: false,
+  },
+  {
+    content: "Great, looking forward to it.",
+    time: "09:27 AM",
+    sent: false,
+    read: false,
+  },
+];
+
+const Constants = { dummyChats, dummyMessages };
+export default Constants;
